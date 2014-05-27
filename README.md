@@ -1,6 +1,6 @@
 # AddThis plugin
 
-Social icons to share page on social platforms.
+Social icons to share a page on social platforms.
 
 ## Features
 
