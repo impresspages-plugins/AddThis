@@ -1,5 +1,4 @@
-AddThis plugin
-#
+# AddThis plugin
 
 Social icons to share page on social platforms.
 
