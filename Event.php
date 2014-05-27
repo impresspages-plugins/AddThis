@@ -14,5 +14,7 @@ class Event
 
         ipAddJs('http://s7.addthis.com/js/300/addthis_widget.js'.$pubOption);
         ipAddJsVariable('addthis_config', array("data_track_addressbar"=>true));
+
+
     }
 }
