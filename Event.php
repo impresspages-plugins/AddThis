@@ -7,14 +7,12 @@ class Event
     {
         $pubId = ipGetOption('AddThis.addThisUid');
         if ($pubId){
-            $pubOption = "#pubid=".$pubId;
-        }else{
-            $pubOption = '';
+            $data['pubid'] = $pubId; // AddThis publisher ID, if applicable
         }
+        $data['data_track_addressbar'] = true;
 
-        ipAddJs('http://s7.addthis.com/js/300/addthis_widget.js'.$pubOption);
-        ipAddJsVariable('addthis_config', array("data_track_addressbar"=>true));
+        ipAddJsVariable("addthis_config", $data);
 
-
+        ipAddJs('http://s7.addthis.com/js/300/addthis_widget.js');
     }
 }
