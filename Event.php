@@ -5,10 +5,7 @@ class Event
 {
     public static function ipBeforeController()
     {
-        $pubId = ipGetOption('AddThis.addThisUid');
-        if ($pubId){
-            $data['pubid'] = $pubId; // AddThis publisher ID, if applicable
-        }
+
         $data['data_track_addressbar'] = true;
 
         ipAddJsVariable("addthis_config", $data);

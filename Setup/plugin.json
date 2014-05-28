@@ -30,12 +30,6 @@
             "name": "enableCounter",
             "type": "checkbox",
             "default": false
-        },
-        {
-            "label": "Pro: AddThis user ID (E.g. 'ra-123654789456'). Leave blank for free version.",
-            "name": "addThisUid",
-            "type": "text",
-            "default": ""
         }
     ]
 }
